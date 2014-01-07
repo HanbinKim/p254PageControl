@@ -21,6 +21,10 @@
 		00C1CF68187BD06E003D4C1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C1CF4A187BD06D003D4C1E /* UIKit.framework */; };
 		00C1CF70187BD06E003D4C1E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00C1CF6E187BD06E003D4C1E /* InfoPlist.strings */; };
 		00C1CF72187BD06E003D4C1E /* p254PageControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C1CF71187BD06E003D4C1E /* p254PageControlTests.m */; };
+		00C1CF7F187BD15E003D4C1E /* car1.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C1CF7B187BD15E003D4C1E /* car1.png */; };
+		00C1CF80187BD15E003D4C1E /* car2.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C1CF7C187BD15E003D4C1E /* car2.png */; };
+		00C1CF81187BD15E003D4C1E /* car3.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C1CF7D187BD15E003D4C1E /* car3.png */; };
+		00C1CF82187BD15E003D4C1E /* car4.png in Resources */ = {isa = PBXBuildFile; fileRef = 00C1CF7E187BD15E003D4C1E /* car4.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,10 @@
 		00C1CF6D187BD06E003D4C1E /* p254PageControlTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "p254PageControlTests-Info.plist"; sourceTree = "<group>"; };
 		00C1CF6F187BD06E003D4C1E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		00C1CF71187BD06E003D4C1E /* p254PageControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = p254PageControlTests.m; sourceTree = "<group>"; };
+		00C1CF7B187BD15E003D4C1E /* car1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car1.png; sourceTree = "<group>"; };
+		00C1CF7C187BD15E003D4C1E /* car2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car2.png; sourceTree = "<group>"; };
+		00C1CF7D187BD15E003D4C1E /* car3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car3.png; sourceTree = "<group>"; };
+		00C1CF7E187BD15E003D4C1E /* car4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car4.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +120,10 @@
 		00C1CF4C187BD06D003D4C1E /* p254PageControl */ = {
 			isa = PBXGroup;
 			children = (
+				00C1CF7B187BD15E003D4C1E /* car1.png */,
+				00C1CF7C187BD15E003D4C1E /* car2.png */,
+				00C1CF7D187BD15E003D4C1E /* car3.png */,
+				00C1CF7E187BD15E003D4C1E /* car4.png */,
 				00C1CF55187BD06D003D4C1E /* AppDelegate.h */,
 				00C1CF56187BD06D003D4C1E /* AppDelegate.m */,
 				00C1CF58187BD06D003D4C1E /* Main.storyboard */,
@@ -229,7 +241,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				00C1CF5F187BD06D003D4C1E /* Images.xcassets in Resources */,
+				00C1CF80187BD15E003D4C1E /* car2.png in Resources */,
+				00C1CF81187BD15E003D4C1E /* car3.png in Resources */,
+				00C1CF82187BD15E003D4C1E /* car4.png in Resources */,
 				00C1CF51187BD06D003D4C1E /* InfoPlist.strings in Resources */,
+				00C1CF7F187BD15E003D4C1E /* car1.png in Resources */,
 				00C1CF5A187BD06D003D4C1E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
